@@ -7,7 +7,7 @@
 This repository contains starter code for Portfolio website created using NextJs. <br />
 
 For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css) <br />
+[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion) <br />
 
 If you want to learn how to create it please follow below tutorial👇: <br />
 https://youtu.be/Yw7yWHigGKI <br />
