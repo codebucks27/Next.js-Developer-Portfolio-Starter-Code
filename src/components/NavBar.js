@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
+import GithubIcon from "./Icons";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -31,7 +32,7 @@ const NavBar = () => {
       </nav>
       <nav>
         <Link href="/" target={"_blank"}>
-          T
+          <GithubIcon />
         </Link>
         <Link href="/" target={"_blank"}>
           T
