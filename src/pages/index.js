@@ -19,14 +19,15 @@ export default function Home() {
             </div>
             <div className="w-1/2 flex flex-col items-center self-center">
               <AnimatedText
-                text="Turning Vision Into Reality With Code And Design."
+                text="Taking what is possible tomorrow and creating it today."
                 className="!text-6xl !text-left"
               />
               <p>
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                I love making something beautiful and functional with the newest
+                development techniques. I look for challenges in the unknown and
+                the new. Right now, I'm practicing with React. While you are
+                here, feel free to check out some of my other recent work or
+                read one of my articles.
               </p>
             </div>
           </div>
