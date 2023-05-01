@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Welcome to my Portfolio</title>
         <meta name="description" content="Brian Williams Portfolio" />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen">
