@@ -1,7 +1,9 @@
 import AnimatedText from "@/components/AnimatedText";
+import Image from "next/image";
 import React from "react";
 import Head from "next/head";
 import Layout from "@/components/layout";
+import profilePic from "../../public/images/profile/Brian-editedbg.png";
 
 const about = () => {
   return (
@@ -37,6 +39,15 @@ const about = () => {
                 forward to the opportunity to bring my skills and passion to
                 your next project.
               </p>
+            </div>
+
+            <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8">
+              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark" />
+              <Image
+                src={profilePic}
+                alt="Brian"
+                className="w-full h-auto rounded-2xl"
+              />
             </div>
           </div>
         </Layout>
