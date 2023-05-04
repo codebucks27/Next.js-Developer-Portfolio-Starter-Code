@@ -6,6 +6,7 @@ import Head from "next/head";
 import Layout from "@/components/layout";
 import profilePic from "../../public/images/profile/Brian-editedbg.png";
 import { useRef } from "react";
+import Skills from "@/components/Skills";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -104,6 +105,8 @@ const about = () => {
               </div>
             </div>
           </div>
+
+          <Skills />
         </Layout>
       </main>
     </>
