@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 
-const Details = ({ position, company, companyLink, time, address, work }) => {
+const Details = ({ type, time, place, info }) => {
   const ref = useRef(null);
   return (
     <li
@@ -16,26 +16,17 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         whileInView={{ y: 0 }}
         transition={{ duration: 0.5, type: "spring" }}
       >
-        <h3 className="capitalize font-bold text-2xl">
-          {position}&nbsp;
-          <a
-            href={companyLink}
-            target="_blank"
-            className="text-primary capitalize"
-          >
-            @{company}
-          </a>
-        </h3>
+        <h3 className="capitalize font-bold text-2xl">{type}</h3>
         <span className="capitalize font-medium text-dark/75">
-          {time} | {address}
+          {time} | {place}
         </span>
-        <p className="font-medium w-full">{work}</p>
+        <p className="font-medium w-full">{info}</p>
       </motion.div>
     </li>
   );
 };
 
-const Experience = () => {
+const Education = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -54,12 +45,10 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            position="Web Developer"
-            company="RikerWeb"
-            companyLink="/"
-            time="2023-Present"
-            address="Colorado Springs, CO"
-            work="At RikerWeb, I build websites with HTML/CSS, JS and Tailwind CSS. I follow design mockups and wireframes, and work with backend developers. I use Tailwind CSS utilities and components to create custom layouts and styles. I have built websites for a HVAC company, a food delivery service and more."
+            type="Associate degree in Political Science"
+            time="2015-2018"
+            place="Pike's Peak State College"
+            info=""
           />
         </ul>
       </div>
@@ -67,4 +56,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import LiIcon from "./LiIcon";
 
 const Skill = ({ name, x, y }) => {
   return (
