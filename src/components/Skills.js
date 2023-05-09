@@ -9,7 +9,7 @@ const Skill = ({ name, x, y }) => {
       initial={{ x: 0, y: 0 }}
       whileInView={{ x: x, y: y }}
       transition={{ duration: 1.5 }}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
     >
       {name}
     </motion.div>
@@ -37,6 +37,7 @@ const Skills = () => {
         <Skill name="D3.js" x="-21vw" y="-15vw" />
         <Skill name="CanvasJS" x="19vw" y="-12vw" />
         <Skill name="NextJS" x="31vw" y="-5vw" />
+        <Skill name="Python" x="19vw" y="-20vw" />
         <Skill name="Tailwind CSS" x="0vw" y="-20vw" />
         <Skill name="Figma" x="-24vw" y="18vw" />
         <Skill name="Spline" x="17vw" y="17vw" />
