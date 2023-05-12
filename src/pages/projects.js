@@ -5,6 +5,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
+import StarShower from "../../public/images/projects/Brians_Stuff-Star_Shower.webp";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
@@ -14,7 +15,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         target="_blank"
         className="w-1/2 cursor-pointer overflow-hideen rounded-lg"
       >
-        <Image src={img} alt={title} className="w-full h-auto" />
+        <Image src={img} alt={title} className="w-full h-auto rounded-xl" />
       </Link>
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6">
@@ -59,11 +60,11 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Star Shower"
-                img={""}
+                img={StarShower}
                 summary="A randomly generated star shower effect with collision."
-                link="/"
+                link="https://starshowerbkw.netlify.app/"
                 type="Featured Project"
-                github="/"
+                github="https://github.com/bwilliams91/Star-Shower"
               />
             </div>
             <div className="col-span-6">Project-1</div>
