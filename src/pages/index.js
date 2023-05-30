@@ -1,10 +1,13 @@
 import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/joao2.png'
+import profilePic from '../../public/images/profile/jcOne-transformed.png'
 import AnimatedText from '../components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
+import HireMe from '@/components/HireMe'
+import lightBulb from '../../public/images/svgs/miscellaneous_icons_1.svg'
+
 
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -24,7 +27,7 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center self-center'>
 
-              <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left' />
+              <AnimatedText text="Materialising Imagination into Reality With Code And Design." className='!text-6xl !text-left' />
               <p className='my-4 text-base font-medium'>
                 As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
                 Explore my latest projects and articles, showcasing my expertise in React.js and web development.
@@ -44,6 +47,10 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
+        <div className='absolute right-8 bottom-8 inline-block w-28'>
+          <Image src={lightBulb} alt="JoaoC" className='w-full h-auto' />
+        </div>
       </main>
     </>
   )
