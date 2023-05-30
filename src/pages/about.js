@@ -6,6 +6,8 @@ import React, { useEffect, useRef } from 'react'
 import profilePic from '../../public/images/profile/jcThree.png'
 import { useSpring, useMotionValue, useInView } from 'framer-motion'
 import Skills from '@/components/Skills'
+import Experience from '@/components/Experience'
+import Education from '@/components/Education'
 
 
 const AnimatedNumbers = ({ value }) => {
@@ -41,7 +43,7 @@ const about = () => {
   return (
     <>
       <Head>
-        <title>JoaoCamba About Page</title>
+        <title>JoaoCamba | About Page</title>
         <meta name="description" content="any description" />
       </Head>
       <main className='flex w-full flex-col items-center justify-center'>
@@ -96,6 +98,8 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
