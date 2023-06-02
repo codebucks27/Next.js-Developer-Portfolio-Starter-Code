@@ -83,7 +83,13 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
           alt={title}
           className='w-full h-auto'
           whileHover={{ scale: 1.05 }}
-          transition={{ duration: 0.2 }} />
+          transition={{ duration: 0.2 }}
+          priority
+          priority
+          sizes='(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw,
+                50vw'
+        />
       </Link>
       <Link href={link} target="_blank">
         <h2 className=' mt-4 capitalize text-2xl font-bold my-2 hover:underline'>
