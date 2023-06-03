@@ -24,7 +24,7 @@ const Details = ({ type, time, place, info }) => {
         >
           {time} | {place}
         </span>
-        <p className='font-medium w-full md:text-sm'>
+        <p className='font-medium w-full :text-sm'>
           {info}
         </p>
       </motion.div>
@@ -56,25 +56,25 @@ const Education = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
+            type="University of Surrey"
+            time="2018-2019"
+            place="Guildford, Surrey"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
           Intelligence."
 
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
+            type="Gunnersbury Catholic School"
+            time="2016-2018"
+            place="City of London"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
           Intelligence."
 
           />
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
+            type="Gunnersbury Catholic School"
+            time="2011-2016"
+            place="City of London"
             info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
           Intelligence."
 

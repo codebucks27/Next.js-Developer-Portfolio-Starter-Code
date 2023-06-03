@@ -64,11 +64,20 @@ const Experience = () => {
             position="Junior Associate Software Engineer"
             company="@PublicisSapient"
             companyLink="https://www.publicissapient.com/"
-            time="2020-2022"
+            time="2021-2022"
             address="City of London"
-            work="During my first 18 Months at Publicis, my work as an Apprentice invovled
-            assisting the Development Manager with all aspects of software Design and team communications. 
-            Mentoring new Junior Engineers coming through the Apprenticeship programme a year after me."
+            work="Upon graduating from the Apprenticeship programme, and stepping into a new role at Publicis, one of my first calls to duty 
+            was to mentor the new Junior Engineers joining the company. I was fortunate to be able to share my similar experience and grow as a teacher."
+          />
+          <Details
+            position="Multiverse Apprentice: Junior Engineer"
+            company="@Multiverse @PublicisSapient"
+            companyLink="www.google.com"
+            time="2020-2021"
+            address="City of London"
+            work="Worked on a team responsible for developing new features for Google's
+          search engine, including improving the accuracy and relevance of search results and
+          developing new tools for data analysis and visualization."
           />
           <Details
             position="Event Security"
@@ -79,16 +88,7 @@ const Experience = () => {
             work="My responsibilities included maintaining order, assisting in disturbances, 
             and providing a sense of protection for attendees and fellow members."
           />
-          <Details
-            position="Software Engineer"
-            company="@Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's
-          search engine, including improving the accuracy and relevance of search results and
-          developing new tools for data analysis and visualization."
-          />
+
         </ul>
       </div>
     </div>

@@ -54,18 +54,18 @@ const about = () => {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
               <p className='font-medium '>
-                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
-                new and innovative ways to bring my clients' visions to life.
+                Hi, I'm João, an engineer using the humble of tools of JavaScript/HTML/CSS to transform measly code into beautiful digital experiences.
+
               </p>
               <p className='my-4 font-medium'>
-                I believe that design is about more than just making things look pretty – it's about solving problems and
-                creating intuitive, enjoyable experiences for users.
+                I understand that engineering is more than just making things look cool, it's about solving real world issues and creating intuitive,
+                enjoyable expriences.
+
               </p>
               <p className='font-medium'>
-                Whether I'm working on a website, mobile app, or
-                other digital product, I bring my commitment to design excellence and user-centered thinking to
-                every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
+                No matter what medium my skills are needed for, whether it be on a Website, Mobile App or any other digital product,
+                I plan to bring an elevated energy and awareness of team dynamics and communication so that my work is up to the standards
+                that my teammates expect of me.
               </p>
             </div>
             <div
