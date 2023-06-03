@@ -61,24 +61,23 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
           <Details
-            position="Software Engineer"
-            company="@Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's
-          search engine, including improving the accuracy and relevance of search results and
-          developing new tools for data analysis and visualization."
+            position="Junior Associate Software Engineer"
+            company="@PublicisSapient"
+            companyLink="https://www.publicissapient.com/"
+            time="2020-2022"
+            address="City of London"
+            work="During my first 18 Months at Publicis, my work as an Apprentice invovled
+            assisting the Development Manager with all aspects of software Design and team communications. 
+            Mentoring new Junior Engineers coming through the Apprenticeship programme a year after me."
           />
           <Details
-            position="Software Engineer"
-            company="@Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's
-          search engine, including improving the accuracy and relevance of search results and
-          developing new tools for data analysis and visualization."
+            position="Event Security"
+            company="@SERVOCA"
+            companyLink="https://www.servoca.com/"
+            time="2019-2020"
+            address="City of London"
+            work="My responsibilities included maintaining order, assisting in disturbances, 
+            and providing a sense of protection for attendees and fellow members."
           />
           <Details
             position="Software Engineer"
