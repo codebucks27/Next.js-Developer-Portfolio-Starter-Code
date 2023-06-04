@@ -67,7 +67,7 @@ const Experience = () => {
             time="2021-2022"
             address="City of London"
             work="Upon graduating from the Apprenticeship programme, and stepping into a new role at Publicis, one of my first calls to duty 
-            was to mentor the new Junior Engineers joining the company. I was fortunate to be able to share my similar experience and grow as a teacher."
+            was to mentor the new Junior Engineers joining the company. I was fortunate to be able to share my similar experiences and grow as a teacher."
           />
           <Details
             position="Multiverse Apprentice: Junior Engineer"
@@ -75,9 +75,7 @@ const Experience = () => {
             companyLink="www.google.com"
             time="2020-2021"
             address="City of London"
-            work="Worked on a team responsible for developing new features for Google's
-          search engine, including improving the accuracy and relevance of search results and
-          developing new tools for data analysis and visualization."
+            work="During my 18 Month Apprenticeship I had the opportunity to learn from great teachers at Multiverse, split my time at an amazing company in Publicis Sapient, and soak up as much information as I could during my first taste of Engineering at the professional level."
           />
           <Details
             position="Event Security"

@@ -59,24 +59,21 @@ const Education = () => {
             type="University of Surrey"
             time="2018-2019"
             place="Guildford, Surrey"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
-          Intelligence."
+            info="Relevant courses included Digital business strategy, International business management and marketing."
 
           />
           <Details
-            type="Gunnersbury Catholic School"
+            type="Gunnersbury Catholic School - Sixth Form"
             time="2016-2018"
             place="City of London"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
-          Intelligence."
+            info="BTEC Business courses included Digital Marketing, Business Decision Making and Principles of Management."
 
           />
           <Details
             type="Gunnersbury Catholic School"
             time="2011-2016"
             place="City of London"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial
-          Intelligence."
+            info="Relevant courses pertaining to GCSE Curiculum during my time at Gunnersbury from 2011 to 2016."
 
           />
         </ul>
