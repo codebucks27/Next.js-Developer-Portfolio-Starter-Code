@@ -5,7 +5,11 @@ import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
 import { GithubIcon } from '@/components/Icons'
-import project1 from '../../public/images/projects/crypto-screener-cover-image.jpg'
+import project1 from '../../public/images/projects/appFace4.png'
+import project2 from '../../public/images/projects/appFace3.png'
+import project3 from '../../public/images/projects/appFace2.png'
+import project4 from '../../public/images/projects/appFace1.png'
+import project5 from '../../public/images/projects/appFace5.png'
 import { motion } from 'framer-motion'
 
 const FramerImage = motion(Image);
@@ -105,11 +109,9 @@ const Projects = () => {
           <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
             <div className='col-span-12'>
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                link="/"
+                title="Joao Meals"
+                summary="Building a Food ordering site, with back-end capabilities, various React Hooks, state managing techniques, etc."
+                link="https://github.com/JoaoNJC/joaomeals"
                 type="Featured Project"
                 github="/"
                 img={project1}
@@ -117,54 +119,53 @@ local currency."
             </div>
             <div className='col-span-6 sm:col-span-12'>
               <Project
-                title="Crypto Screener Application"
+                title="Expense Tracker"
 
                 link="/"
                 type="Featured Project"
-                github="/"
-                img={project1}
+                github="https://github.com/JoaoNJC/joaoExpenseTracker"
+                img={project2}
               />
             </div>
             <div className='col-span-6 m:col-span-12'>
               <Project
-                title="Crypto Screener Application"
+                title="Meeting Scheduler"
 
                 link="/"
                 type="Featured Project"
-                github="/"
-                img={project1}
+                github="https://github.com/JoaoNJC/joaoMeetupsApp"
+                img={project3}
               />
             </div>
             <div className='col-span-12'>
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
+                title="Portfolio Site"
+                summary="A feature-rich Portfolio Site using React, Tailwind CSS and Next Router. 
+It demonstrates a detail oriented approach with it's responsive actions regarding screen/mobile size."
                 link="/"
                 type="Featured Project"
-                github="/"
+                github="https://github.com/JoaoNJC/joaoPortfolioSite"
+                img={project4}
+              />
+            </div>
+            <div className='col-span-6 m:col-span-12'>
+              <Project
+                title="Joao Meals"
+
+                link="/"
+                type="Featured Project"
+                github="https://github.com/JoaoNJC/joaomeals"
                 img={project1}
               />
             </div>
             <div className='col-span-6 m:col-span-12'>
               <Project
-                title="Crypto Screener Application"
+                title="Adding Users App"
 
-                link="/"
+                link="https://github.com/JoaoNJC/AddingUsers"
                 type="Featured Project"
                 github="/"
-                img={project1}
-              />
-            </div>
-            <div className='col-span-6 m:col-span-12'>
-              <Project
-                title="Crypto Screener Application"
-
-                link="/"
-                type="Featured Project"
-                github="/"
-                img={project1}
+                img={project5}
               />
             </div>
           </div>

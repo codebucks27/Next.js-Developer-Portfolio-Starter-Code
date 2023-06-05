@@ -63,9 +63,11 @@ const about = () => {
 
               </p>
               <p className='font-medium'>
-                No matter what medium my skills are needed for, whether it be on a Website, Mobile App or any other digital product,
-                I plan to bring an elevated energy and awareness of team dynamics and communication so that my work is up to the standards
-                that my teammates expect of me.
+                Starting my journey as an Engineer with Multiverse, taught me valuable lessons about
+                team work and the importance of professionalism. What I've understood professionalism to mean,
+                in the context of Software Development, is to approach each day with a set goal in mind. Understanding that
+                communication within a team structure is essential. Wherever my labour is appreciated, I plan to execute my work
+                with the upmost professionalism.
               </p>
             </div>
             <div
