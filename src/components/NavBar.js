@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import { useRouter } from 'next/router'
 import Logo from './Logo'
-import { TwitterIcon, GithubIcon, LinkedInIcon, PinterestIcon, SunIcon, MoonIcon } from './Icons'
+import { GithubIcon, LinkedInIcon, SunIcon, MoonIcon } from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 import { useState } from 'react'
@@ -90,33 +90,20 @@ const NavBar = () => {
 
 
         <nav className='flex items-center justify-center flex-wrap'>
-          <motion.a href="https://twitter.com" target={"_blank"}
-            className="w-6 mx-3"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <TwitterIcon />
-          </motion.a>
-          <motion.a href="https://github.com" target={"_blank"}
+
+          <motion.a href="https://github.com/JoaoNJC" target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
             <GithubIcon />
           </motion.a>
-          <motion.a href="https://LinkedIn.com" target={"_blank"}
+          <motion.a href="https://www.linkedin.com/in/jo%C3%A3o-camba-4856a018a/" target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
             <LinkedInIcon />
-          </motion.a>
-          <motion.a href="https://pinterest.com" target={"_blank"}
-            className="w-6 ml-3 bg-light rounded-full"
-            whileHover={{ y: -2 }}
-            whileTap={{ scale: 0.9 }}
-          >
-            <PinterestIcon />
           </motion.a>
 
 
@@ -149,34 +136,22 @@ const NavBar = () => {
 
 
             <nav className='flex items-center justify-center flex-wrap mt-2 '>
-              <motion.a href="https://twitter.com" target={"_blank"}
-                className="w-6 mx-3 sm:mx-1 "
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <TwitterIcon />
-              </motion.a>
-              <motion.a href="https://github.com" target={"_blank"}
+
+              <motion.a href="https://github.com/JoaoNJC" target={"_blank"}
                 className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
               >
                 <GithubIcon />
               </motion.a>
-              <motion.a href="https://LinkedIn.com" target={"_blank"}
+              <motion.a href="https://www.linkedin.com/in/jo%C3%A3o-camba-4856a018a/" target={"_blank"}
                 className="w-6 mx-3 sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
               >
                 <LinkedInIcon />
               </motion.a>
-              <motion.a href="https://pinterest.com" target={"_blank"}
-                className="w-6 ml-3 bg-light rounded-full sm:mx-1"
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.9 }}
-              >
-                <PinterestIcon />
-              </motion.a>
+
 
 
               <button

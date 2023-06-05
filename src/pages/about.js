@@ -53,14 +53,12 @@ const about = () => {
           <div className='grid - w-full grid-cols-8 gap-16 sm:gap-8 '>
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
-              <p className='font-medium '>
+              <p className='font-medium'>
                 Hi, I'm João, an engineer using the humble of tools of JavaScript/HTML/CSS to transform measly code into beautiful digital experiences.
-
               </p>
               <p className='my-4 font-medium'>
                 I understand that engineering is more than just making things look cool, it's about solving real world issues and creating intuitive,
                 enjoyable expriences.
-
               </p>
               <p className='font-medium'>
                 Starting my journey as an Engineer with Multiverse, taught me valuable lessons about
