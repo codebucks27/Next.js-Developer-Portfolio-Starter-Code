@@ -44,7 +44,7 @@ const MovingImg = ({ title, img, link }) => {
         ref={imgRef}
         src={img}
         alt={title}
-        className="z-10 w-96 h-auto hidden absolute rounded-lg"
+        className="z-20 w-96 h-auto  hidden absolute rounded-lg object-cover"
       />
     </Link>
   );
@@ -94,7 +94,7 @@ const articles = () => {
         <title>Brian Williams | Articles Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+      <main className="w-full pb-16 mb-16 flex flex-col items-center justify-center overflow-hidden">
         <Layout className="pt-16">
           <AnimatedText
             text="I Don't Know, Satan Is Pretty Cool"
