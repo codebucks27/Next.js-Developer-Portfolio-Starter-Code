@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.yarn/*
 
 # testing
 /coverage
@@ -33,3 +34,6 @@ yarn-error.log*
 *.zip
 *.gz
 *.yml
+*.mjs
+*.cjs
+.pnp.cjs
