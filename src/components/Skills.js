@@ -52,6 +52,8 @@ const Skills =({name, x, y}) => {
 
       <Skill name="MongoDB" x="18vw" y="18vw" />
 
+      <Skill name="Next.js" x="-35vw" y="-5vw" />
+
     </div>
     </>
   )
