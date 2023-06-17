@@ -60,7 +60,7 @@ const Education = () => {
             type="Libral Arts"
             time="2019-2022"
             place="Mission College, Santa Clara, CA"
-            info="Relevant courses included Java, Engineering, and Python."
+            info="Relevant courses included Java, Python, and Engineering. I also completed a number of general education courses, including Calculus, Physics, and English Composition."
             />
         </ul>
       </div>
