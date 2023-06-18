@@ -30,27 +30,27 @@ const Skills =({name, x, y}) => {
         Web Dev
       </motion.div>
 
-      <Skill name="CSS" x="-5vw" y="-10vw" />
+      <Skill name="CSS" x="-1vw" y="-15vw" />
 
-      <Skill name="HTML" x="-25vw" y="2vw" />
+      <Skill name="HTML" x="-24vw" y="2vw" />
 
-      <Skill name="JavaScript" x="20vw" y="6vw" />
+      <Skill name="JavaScript" x="21vw" y="7vw" />
 
-      <Skill name="Python" x="0vw" y="12vw" />
+      <Skill name="Python" x="0vw" y="11vw" />
 
       <Skill name="C#" x="-24vw" y="-17vw" />
 
       <Skill name="Node.js" x="-15vw" y="-12vw" />
 
-      <Skill name="React" x="32vw" y="-5vw" />
+      <Skill name="React" x="35vw" y="-5vw" />
 
-      <Skill name="Tailwind CSS" x="0vw" y="-20vw" />
+      <Skill name="Tailwind CSS" x="0vw" y="-22vw" />
 
-      <Skill name="REST API's" x="-25vw" y="18vw" />
+      <Skill name="REST API's" x="-22vw" y="18vw" />
 
       <Skill name="SQL" x="18vw" y="-15vw" />
 
-      <Skill name="MongoDB" x="18vw" y="18vw" />
+      <Skill name="MongoDB" x="20vw" y="18vw" />
 
       <Skill name="Next.js" x="-35vw" y="-5vw" />
 

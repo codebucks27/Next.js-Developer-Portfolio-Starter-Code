@@ -51,7 +51,8 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            position="Warehouse Manager" company="Napolitana Foods/Troia Foods"
+            position="Warehouse Manager" 
+            company="Napolitana Foods/Troia Foods"
             companyLink="https://www.troiafoods.com/"
             time="2017-2023"
             address=" Hayward, CA"
@@ -62,7 +63,8 @@ const Experience = () => {
           />
 
           <Details
-            position="Manager" company="Nizarios Pizza"
+            position="Manager" 
+            company="Nizarios Pizza"
             companyLink="http://nizarios.com/"
             time="2016-2017"
             address=" San Francisco, CA"
