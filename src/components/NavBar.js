@@ -40,7 +40,7 @@ const NavBar = () => {
       </nav>
 
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a href='https://twitter.com' target={"_black"}
+        <motion.a href='https://twitter.com/abdalla99393683' target={"_black"}
         whileHover={{y: -2}}
         whileTap={{scale: 0.9}}
         className="w-6 mx-3"
@@ -48,7 +48,7 @@ const NavBar = () => {
           <TwitterIcon />
           </motion.a>
 
-        <motion.a href='https://twitter.com' target={"_black"}
+        <motion.a href='https://github.com/abdallah1936' target={"_black"}
         className="w-6 mx-3"
         whileHover={{y: -2}}
         whileTap={{scale: 0.9}}
@@ -56,7 +56,7 @@ const NavBar = () => {
           <GithubIcon />
           </motion.a>
 
-        <motion.a href='https://twitter.com' target={"_black"}
+        <motion.a href='https://www.linkedin.com/in/abdallahawadalla/' target={"_black"}
         className="w-6 mx-3"
         whileHover={{y: -2}}
         whileTap={{scale: 0.9}}
@@ -64,7 +64,7 @@ const NavBar = () => {
           <LinkedInIcon />
           </motion.a>
 
-        <motion.a href='https://twitter.com' target={"_black"}
+        <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
         className="w-6 mx-3"
         whileHover={{y: -2}}
         whileTap={{scale: 0.9}}
@@ -72,7 +72,7 @@ const NavBar = () => {
           <PinterestIcon />
           </motion.a>
 
-        <motion.a href='https://twitter.com' target={"_black"}
+        <motion.a href='https://dribbble.com/AbdallahAwadalla' target={"_black"}
         className="w-6 ml-3"
         whileHover={{y: -2}}
         whileTap={{scale: 0.9}}

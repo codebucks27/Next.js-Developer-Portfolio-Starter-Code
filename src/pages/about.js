@@ -9,28 +9,28 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Experiance from "@/components/Experiance";
 import Education from "@/components/Education";
 
-const AnimatedNumbers = ({value}) => {
-const ref = useRef(null);
+const AnimatedNumbers = ({ value }) => {
+  const ref = useRef(null);
 
-const motionValue = useMotionValue(0);
-const springValue = useSpring(motionValue, { duration: 3000 });
-const isInView = useInView(ref, {once: true});
+  const motionValue = useMotionValue(0);
+  const springValue = useSpring(motionValue, { duration: 3000 });
+  const isInView = useInView(ref, { once: true });
 
-useEffect(() => {
-  if(isInView) {
-    motionValue.set(value);
-  }
-},[isInView, value, motionValue])
-
-useEffect(() => {
-  springValue.on("change", (latest) => {
-    if(ref.current && latest.toFixed(0) <= value) {
-      ref.current.textContent = latest.toFixed(0);
+  useEffect(() => {
+    if (isInView) {
+      motionValue.set(value);
     }
-  })
+  }, [isInView, value, motionValue])
 
-}, [springValue, value])
-  
+  useEffect(() => {
+    springValue.on("change", (latest) => {
+      if (ref.current && latest.toFixed(0) <= value) {
+        ref.current.textContent = latest.toFixed(0);
+      }
+    })
+
+  }, [springValue, value])
+
 
   return <span ref={ref}></span>
 }
@@ -67,30 +67,30 @@ const about = () => {
               <Image src={profilePic} alt="Abdallah Awadalla" className='w-full h-auto rounded-2xl' />
             </div>
 
-<div className="col-span-2 flex flex-col items-end justify-between">
+            <div className="col-span-2 flex flex-col items-end justify-between">
 
-    <div className="flex flex-col items-end justify-center">
-      <span className="inline-block text-7xl font-bold">
-        <AnimatedNumbers value={20}/>+
-      </span>
-      <h2 className="text-xl font-medium capitalize text-dark/75">satisfied clients</h2>
-    </div>
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={20} />+
+                </span>
+                <h2 className="text-xl font-medium capitalize text-dark/75">satisfied clients</h2>
+              </div>
 
-    <div className="flex flex-col items-end justify-center">
-      <span className="inline-block text-7xl font-bold">
-      <AnimatedNumbers value={10}/>+
-      </span>
-      <h2 className="text-xl font-medium capitalize text-dark/75">projects comleted</h2>
-    </div>
+              <div className="flex flex-col items-end justify-center">
+                <span className="inline-block text-7xl font-bold">
+                  <AnimatedNumbers value={10} />+
+                </span>
+                <h2 className="text-xl font-medium capitalize text-dark/75">projects comleted</h2>
+              </div>
 
-    {/* <div className="flex flex-col items-end justify-center">
+              {/* <div className="flex flex-col items-end justify-center">
       <span className="inline-block text-7xl font-bold">
         <AnimatedNumbers value={1}/>+
       </span>
       <h2 className="text-xl font-medium capitalize text-dark/75">years of experience</h2>
     </div> */}
 
-</div>
+            </div>
           </div>
           <Skills />
           <Experiance />
