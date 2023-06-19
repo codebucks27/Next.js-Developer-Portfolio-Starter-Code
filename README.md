@@ -1,45 +1,30 @@
-# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
+# 👋 Welcome to my portfolio!
 
-![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
-![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
-![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
+## 🧑‍💻 About Me
+My name is Abdallah Awadalla, a full-stack Software Engineer. I am a graduate of General Assembly's intensive twelve-week boot camp where I honed my skills in JavaScript, Python, Node.js, React.js, and more.
 
-This repository contains starter code for Portfolio website created using NextJs. <br />
+## 💼 Professional Experience
+I transitioned from being a Warehouse Manager at Napolitana Foods/Troia Foods, where I optimized inventory management and distribution processes, to becoming a full-stack Software Engineer. Prior to that, I was a Manager at Nizario's Pizza where I boosted monthly sales through improved customer service.
 
-For Demo and Final Code checkout following link👇: <br />
-[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion) <br />
+## 🎯 Projects
+Here are some of the projects that I've worked on:
 
-If you want to learn how to create it please follow below tutorial👇: <br />
-https://youtu.be/Yw7yWHigGKI <br />
-[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
+### [PONG Game](https://play.unity.com/mg/other/pong-webgl-4)
+Developed a PONG game using Unity and C# within one week while learning a new language.
 
-<h3 align="left">▶ Support me via:</h3><br />
-<p><a href="https://www.buymeacoffee.com/CodeBucks" target="_blank"> <img  src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="210" alt="CodeBucks" ></img></a></p><br />
+### [Full-Stack MERN Web App](https://645ae12259fd3d52913fb954--grand-sunflower-c807ab.netlify.app/)
+Collaborated with a team to develop a full-stack application using MERN (MongoDB, Express.js, React.js, Node.js). Integrated an external API for looking up different national parks.
 
-### Images of The Portfolio Website:
+### Favorite Animals Web App
+Developed a user-friendly Express app using Node.js, Sequelize, and EJS. Implemented and managed CRUD routes for favorite animals.
 
-![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
-![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
-![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
-![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
-![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
-![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
-![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
-![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
+### Web-based PONG Game
+Developed a web version of the classic PONG game using HTML, CSS, JavaScript, and HTML5 Canvas.
 
+## 🎓 Education
+I completed a twelve-week Software Engineering Immersive boot camp at General Assembly and received an Associate Degree from Mission College.
 
-### Resources Used in This Project
+## 📬 Get In Touch
+Feel free to reach out to me on [LinkedIn](your-link-here) or via [Email](mailto:Awadallaabdallah@email.com). I am open to new opportunities and would love to hear from you!
 
-- Profile image in the home page created by using https://www.midjourney.com/ tool.
-- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
-on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-- Fonts from https://fonts.google.com/ <br />
-- Icons from https://iconify.design/ <br />
-- LightBulb Svg from https://lukaszadam.com/illustrations <br />
-
-### External Libraries used in this project:
-
-- [framer-motion](https://www.framer.com/motion/) <br />
-- [Tailwind css](https://tailwindcss.com/) <br />
-
-
+Thank you for visiting my portfolio!
