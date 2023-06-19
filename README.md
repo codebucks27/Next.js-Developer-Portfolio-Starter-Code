@@ -25,6 +25,6 @@ Developed a web version of the classic PONG game using HTML, CSS, JavaScript, an
 I completed a twelve-week Software Engineering Immersive boot camp at General Assembly and received an Associate Degree from Mission College.
 
 ## 📬 Get In Touch
-Feel free to reach out to me on [LinkedIn](your-link-here) or via [Email](mailto:Awadallaabdallah@email.com). I am open to new opportunities and would love to hear from you!
+Feel free to reach out to me on [LinkedIn](http://linkedin.com/in/abdallahawadalla/) or via [Email](mailto:Awadallaabdallah@email.com). I am open to new opportunities and would love to hear from you!
 
 Thank you for visiting my portfolio!
