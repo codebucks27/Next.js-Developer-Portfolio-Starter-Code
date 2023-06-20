@@ -5,11 +5,12 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/create loading screen in react js.jpg";
+import article2 from "../../public/images/articles/web scraping python.png";
 import { motion, useMotionValue } from "framer-motion";
 import article3 from "../../public/images/articles/create modal component in react using react portals.png";
 import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
+import article6 from "../../public/images/articles/zero to hero front end.png";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
@@ -144,16 +145,15 @@ const articles = () => {
                 title="Build A Custom Pagination Component In Reactjs From Scratch"
                 summary="Learn how to build a custom pagination component in ReactJS from scratch.
                 Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                time="9 min read"
-                link="/"
+                time="10 min read"
+                link="https://www.freecodecamp.org/news/build-a-custom-pagination-component-in-react/"
                 img={article1}
               />
 
               <FeaturedArticles
-                title="Build A Custom Pagination Component In Reactjs From Scratch"
-                summary="Learn how to build a custom pagination component in ReactJS from scratch.
-                Follow this step-by-step guide to integrate Pagination component in your ReactJS project."
-                time="9 min read"
+                title="Advanced Python Web Scraping: Best Practices & Workarounds"
+                summary="Web scraping is the process of extracting data from websites, either manually or using automated scripts, to gather information. It can be a complex task due to challenges such as asynchronous loading, authentication, server-side blacklisting, redirects, captchas, and structural complexities. Various tools and libraries like BeautifulSoup, Scrapy, and Selenium can be used to tackle these challenges and facilitate web scraping in Python."
+                time="20 min read"
                 link="/"
                 img={article2}
               />
@@ -163,10 +163,10 @@ const articles = () => {
 
             <ul>
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
-                img={article3}
+                title="Zero to Hero: Front End Developer Roadmap"
+                date="Jun 25, 2022"
+                link="https://dev.to/ruppysuppy/front-end-developer-roadmap-zero-to-hero-4pkf"
+                img={article6}
               />
 
               <Article
@@ -177,9 +177,9 @@ const articles = () => {
               />
 
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
+                title="Easy smooth scrolling in react"
+                date="Sep 12, 2021"
+                link="https://blog.avneesh.tech/easy-smooth-scrolling-in-react"
                 img={article5}
               />
 
