@@ -9,6 +9,7 @@ import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
 import project1 from "../../public/images/projects/Crypto-screener-cover-image.jpg";
+import project2 from "../../public/images/projects/NPS.png";
 
 
 
@@ -18,11 +19,13 @@ const FramerImage = motion(Image);
 const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
 
   return (
-    <article className="w-full flex items-center justify-between relative rounded-3xl rounded-br-2xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
+    <article className="w-full flex items-center justify-between relative rounded-3xl rounded-br-2xl border border-solid border-dark bg-light shadow-2xl p-12 
+    dark:bg-dark dark:border-light
     lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4
     ">
 
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]  rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]  rounded-[2.5rem] bg-dark rounded-br-3xl 
+      dark:bg-light
       xs:-right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]
       " />
 
@@ -57,13 +60,15 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
           ">
             {title}</h2>
         </Link>
-        <p className="my-2 font-medium text-dark dark:text-light
+        <p className="my-2 font-medium text-dark 
+        dark:text-light
         xm:text-sm
         ">{summary}</p>
         <div className="mt-2 flex tems-center">
           <Link href={github} target="_blank" className="w-10"> <GithubIcon /> </Link>
           <Link href={link} target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
+            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold 
+            dark:bg-light dark:text-dark
             sm:px-4 sm:text-base
             "
           >Visit Project</Link>
@@ -80,7 +85,8 @@ const Project = ({ title, type, img, link, github }) => {
     xs:p-4
     ">
 
-      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]  rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
+      <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%]  rounded-[2rem] bg-dark rounded-br-3xl 
+      dark:bg-light
       md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
       " />
 
@@ -162,25 +168,22 @@ const Projects = () => {
             <div className="col-span-12">
               <FeaturedProjects
 
-                title="Crypto Screener App"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-              It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-              local currency."
-                link="/"
-                github="/"
+                title="NPS Mobile App"
+                img={project2}
+                summary="npsExplorer is a mobile-first application that offers users a personalized exploration experience of U.S. National Parks. As part of a small team, I worked on this application utilizing a MERN (MongoDB, Express, React, Node.js) stack, complemented with Mongoose for handling MongoDB object modeling. The app presents extensive park details, suggested activities, historical context, and mesmerizing visuals sourced via the National Park Service API. I also incorporated functionality to facilitate user image uploads through Uploadcare. This project showcases my skills in developing engaging, visually-driven applications with a NoSQL backend and React frontend."
+                link="https://645ae12259fd3d52913fb954--grand-sunflower-c807ab.netlify.app/"
+                github="https://github.com/abdallah1936/npsexplorer-client"
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 
+            sm:col-span-12">
               <Project
-                title="Crypto Screener App"
+                title="Tic-Tac-Toe"
                 img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
+                summary="My project, an enhanced version of the classic game Tic-Tac-Toe, was initiated following a React tutorial. Post-completion of the tutorial, I sought to elevate the user experience by reworking the CSS for a more intuitive and appealing game interface, as well as modifying JavaScript to highlight the winning sequence, as per the tutorial's recommendation. This project was not only a valuable learning exercise, but also a rewarding challenge that demonstrated my ability to take foundational code and iteratively improve upon it for a more enjoyable user experience."
                 link="/"
-                github="/"
+                github="https://github.com/abdallah1936/Tik-Tak-Toe-V2.0"
                 type="Project"
               />
             </div>
@@ -210,7 +213,8 @@ const Projects = () => {
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 
+            sm:col-span-12">
               <Project
                 title="Crypto Screener App"
                 img={project1}
@@ -222,7 +226,8 @@ const Projects = () => {
                 type="Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            <div className="col-span-6 
+            sm:col-span-12">
               <Project
                 title="Crypto Screener App"
                 img={project1}
