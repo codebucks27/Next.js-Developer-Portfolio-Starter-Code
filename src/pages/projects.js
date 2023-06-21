@@ -5,9 +5,10 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/Crypto-screener-cover-image.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
+
+import project1 from "../../public/images/projects/Crypto-screener-cover-image.jpg";
 
 
 

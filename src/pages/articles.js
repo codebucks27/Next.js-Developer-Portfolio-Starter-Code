@@ -4,14 +4,17 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
+import { motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
+
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import article2 from "../../public/images/articles/web scraping python.png";
-import { motion, useMotionValue } from "framer-motion";
-import article3 from "../../public/images/articles/create modal component in react using react portals.png";
-import article4 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
+import article3 from "../../public/images/articles/A Beginner’s Guide to Tailwind CSS.png";
+import article4 from "../../public/images/articles/backend dev roadmap.png";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
 import article6 from "../../public/images/articles/zero to hero front end.png";
-import TransitionEffect from "@/components/TransitionEffect";
+import article7 from "../../public/images/articles/The guide to responsive web design.png";
+import article8 from "../../public/images/articles/How to implement dark mode in React using tailwind css.png";
 
 
 
@@ -154,7 +157,7 @@ const articles = () => {
                 title="Advanced Python Web Scraping: Best Practices & Workarounds"
                 summary="Web scraping is the process of extracting data from websites, either manually or using automated scripts, to gather information. It can be a complex task due to challenges such as asynchronous loading, authentication, server-side blacklisting, redirects, captchas, and structural complexities. Various tools and libraries like BeautifulSoup, Scrapy, and Selenium can be used to tackle these challenges and facilitate web scraping in Python."
                 time="20 min read"
-                link="/"
+                link="https://www.codementor.io/blog/python-web-scraping-63l2v9sf2q"
                 img={article2}
               />
             </ul>
@@ -170,9 +173,9 @@ const articles = () => {
               />
 
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
+                title="Backend Developer Roadmap!"
+                date="Feb 14, 2022"
+                link="https://medium.com/@Coding_Networks/backend-developer-roadmap-6debbed1142b"
                 img={article4}
               />
 
@@ -184,24 +187,24 @@ const articles = () => {
               />
 
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
+                title="A Beginner’s Guide to Tailwind CSS"
+                date="Jun 15, 2023"
+                link="https://medium.com/@droptica/a-beginners-guide-to-tailwind-css-what-is-it-and-how-can-you-use-it-153c42bca1f9"
                 img={article3}
               />
 
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
-                img={article3}
+                title="The guide to responsive web design"
+                date="Jul 21, 2021"
+                link="https://webflow.com/blog/responsive-web-design"
+                img={article7}
               />
 
               <Article
-                title="From Zero to Hero: How to Become a Front-End Developer"
-                date="May 25, 2021"
-                link="/"
-                img={article3}
+                title="How to implement dark mode in React using tailwind css."
+                date="Jan 01, 2023"
+                link="https://www.devwares.com/blog/how-to-implement-dark-mode-in-tailwind-css/"
+                img={article8}
               />
             </ul>
 
