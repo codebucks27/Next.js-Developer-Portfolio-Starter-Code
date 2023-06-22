@@ -8,13 +8,13 @@ import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/web scraping python.png";
-import article3 from "../../public/images/articles/A Beginner’s Guide to Tailwind CSS.png";
-import article4 from "../../public/images/articles/backend dev roadmap.png";
-import article5 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import article6 from "../../public/images/articles/zero to hero front end.png";
-import article7 from "../../public/images/articles/The guide to responsive web design.png";
-import article8 from "../../public/images/articles/How to implement dark mode in React using tailwind css.png";
+import article2 from "../../public/images/articles/web scraping python.jpg";
+import article3 from "../../public/images/articles/A Beginner’s Guide to Tailwind CSS.jpg";
+import article4 from "../../public/images/articles/backend dev roadmap.jpg";
+import article5 from "../../public/images/articles/smooth scrolling in reactjs.jpg";
+import article6 from "../../public/images/articles/zero to hero front end.jpg";
+import article7 from "../../public/images/articles/The guide to responsive web design.jpg";
+import article8 from "../../public/images/articles/How to implement dark mode in React using tailwind css.jpg";
 
 
 

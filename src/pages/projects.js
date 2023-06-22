@@ -8,9 +8,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-import project1 from "../../public/images/projects/Crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/NPS.png";
-import project3 from "../../public/images/projects/Tic-Tac-Toe.png";
+
+import project2 from "../../public/images/projects/NPS.jpg";
+import project3 from "../../public/images/projects/Tic-Tac-Toe.jpg";
 
 
 
