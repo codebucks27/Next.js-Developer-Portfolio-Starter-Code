@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import Image from 'next/image'
-import profilePic from '../../public/images/profile/AI_developer_image.png'
+import profilePic from '../../public/images/profile/AI_developer_image.jpg'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'

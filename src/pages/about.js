@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Skills from "@/components/Skills";
 import Head from 'next/head'
 import React, { useEffect, useRef } from "react";
-import profilePic from '../../public/images/profile/Profile-Pic.JPG'
+import profilePic from '../../public/images/profile/Profile-Pic.jpg'
 import Image from 'next/image'
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Experiance from "@/components/Experiance";
