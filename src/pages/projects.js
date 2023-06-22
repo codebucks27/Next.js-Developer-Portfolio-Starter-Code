@@ -10,6 +10,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 import project1 from "../../public/images/projects/Crypto-screener-cover-image.jpg";
 import project2 from "../../public/images/projects/NPS.png";
+import project3 from "../../public/images/projects/Tic-Tac-Toe.png";
 
 
 
@@ -180,14 +181,14 @@ const Projects = () => {
             sm:col-span-12">
               <Project
                 title="Tic-Tac-Toe"
-                img={project1}
+                img={project3}
                 summary="My project, an enhanced version of the classic game Tic-Tac-Toe, was initiated following a React tutorial. Post-completion of the tutorial, I sought to elevate the user experience by reworking the CSS for a more intuitive and appealing game interface, as well as modifying JavaScript to highlight the winning sequence, as per the tutorial's recommendation. This project was not only a valuable learning exercise, but also a rewarding challenge that demonstrated my ability to take foundational code and iteratively improve upon it for a more enjoyable user experience."
-                link="/"
+                link="https://tik-tak-toe-v2-0.vercel.app/"
                 github="https://github.com/abdallah1936/Tik-Tak-Toe-V2.0"
                 type="Project"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener App"
                 img={project1}
@@ -237,8 +238,8 @@ const Projects = () => {
                 link="/"
                 github="/"
                 type="Project"
-              />
-            </div>
+              /> 
+             </div> */}
 
           </div>
         </Layout>
