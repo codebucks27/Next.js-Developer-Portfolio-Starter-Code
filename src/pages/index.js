@@ -22,7 +22,7 @@ export default function Home() {
       <main className='flex items-center text-dark w-full min-h-screen dark:text-light'>
         <Layout className='pt-0 md:p-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
-            <div className='w-1/3 md:w-full'>
+            <div className='w-1/2 md:w-full'>
               <Image src={profilePic} alt="Abdallah Awadalla" className='w-full h-auto lg:hidden md:inline-block md:w-full' priority
               sizes='(max-width: 768px) 100vw, 
               (max-width: 1200px) 50vw,
