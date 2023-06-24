@@ -113,7 +113,7 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
 
-          <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
+          {/* <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
             className="w-6 mx-3 bg-light rounded-full"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -127,7 +127,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
 
 
           <button
@@ -171,13 +171,13 @@ const NavBar = () => {
               <motion.a href='https://twitter.com/abdalla99393683' target={"_black"}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
-                className="w-6 mx-3 sm:mx-1"
+                className="w-8 mx-3 sm:mx-1"
               >
                 <TwitterIcon />
               </motion.a>
 
               <motion.a href='https://github.com/abdallah1936' target={"_black"}
-                className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+                className="w-8 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
               >
@@ -185,14 +185,14 @@ const NavBar = () => {
               </motion.a>
 
               <motion.a href='https://www.linkedin.com/in/abdallahawadalla/' target={"_black"}
-                className="w-6 mx-3 sm:mx-1"
+                className="w-8 mx-3 sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
               >
                 <LinkedInIcon />
               </motion.a>
 
-              <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
+              {/* <motion.a href='https://www.pinterest.com/awadallaabdallah/' target={"_black"}
                 className="w-6 mx-3 bg-light rounded-full sm:mx-1"
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.9 }}
@@ -206,12 +206,12 @@ const NavBar = () => {
                 whileTap={{ scale: 0.9 }}
               >
                 <DribbbleIcon />
-              </motion.a>
+              </motion.a> */}
 
 
               <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light"
+                className={`ml-2 flex items-center justify-center rounded-full p-2 ${mode === "light" ? "bg-dark text-light"
                 : "bg-light text-dark"}
      `}
               >
