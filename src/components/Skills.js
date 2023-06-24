@@ -49,7 +49,7 @@ const Skills =({name, x, y}) => {
 
       <Skill name="Tailwind CSS" x="0vw" y="-22vw" />
 
-      <Skill name="REST API's" x="-22vw" y="18vw" />
+      <Skill name="REST APIs" x="-22vw" y="18vw" />
 
       <Skill name="SQL" x="18vw" y="-15vw" />
 
