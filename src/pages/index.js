@@ -45,7 +45,7 @@ export default function Home() {
                 '
 
                 download={true}
-                >Resume<LinkArrow className='w-6 ml-1' />
+                >Resume<LinkArrow className='w-6 ml-1 lg:self-center' />
 
                 </Link>
                 <Link href="mailto:Awadallaabdallah@gmail.com" target={'_blank'}

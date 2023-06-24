@@ -209,7 +209,7 @@ const NavBar = () => {
               </motion.a> */}
 
 
-              <button
+              {/* <button
                 onClick={() => setMode(mode === "light" ? "dark" : "light")}
                 className={`ml-2 flex items-center justify-center rounded-full p-2 ${mode === "light" ? "bg-dark text-light"
                 : "bg-light text-dark"}
@@ -220,7 +220,7 @@ const NavBar = () => {
                     <SunIcon className={"fill-dark"} />
                     : <MoonIcon className={"fill-dark"} />
                 }
-              </button>
+              </button> */}
             </nav>
 
 
