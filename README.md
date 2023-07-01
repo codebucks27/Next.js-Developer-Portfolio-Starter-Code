@@ -9,8 +9,11 @@ I transitioned from being a Warehouse Manager at Napolitana Foods/Troia Foods, w
 ## 🎯 Projects
 Here are some of the projects that I've worked on:
 
-### [PONG Game](https://play.unity.com/mg/other/pong-webgl-4)
+### [PONG](https://play.unity.com/mg/other/pong-webgl-4)
 Developed a PONG game using Unity and C# within one week while learning a new language.
+
+### [Tic-Tac-Toe](https://tik-tak-toe-v2-0.vercel.app/)
+Developed a desktop version of the Tic-Tac-Toe game using React.
 
 ### [Full-Stack MERN Web App](https://645ae12259fd3d52913fb954--grand-sunflower-c807ab.netlify.app/)
 Collaborated with a team to develop a full-stack application using MERN (MongoDB, Express.js, React.js, Node.js). Integrated an external API for looking up different national parks.
