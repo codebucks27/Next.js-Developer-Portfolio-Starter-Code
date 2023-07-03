@@ -1,12 +1,20 @@
-import react from "react";
 
-const Layout = ({ children, className = "" }) => {
+import React from 'react';
+import UnderConstruction from "./UnderConstruction";
+
+const Layout = ({ children, className = "", underConstruction }) => {
   return (
-    <div
-      className={`w-full h-full inline-block z-0 bg-light p-32 ${className}`}
-    >
-      {children}
-    </div>
+    <>
+      {underConstruction ? (
+        <div>
+          <UnderConstruction />
+        </div>
+      ) : (
+        <div className={`w-full h-full inline-block z-0 bg-light p-32 ${className}`}>
+          {children}
+        </div>
+      )}
+    </>
   );
 };
 export default Layout;
