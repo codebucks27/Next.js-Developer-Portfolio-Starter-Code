@@ -95,7 +95,7 @@ const articles = () => {
         <meta name="description" content="any description" />
       </Head>
       <main className="w-full pb-16 mb-16 flex flex-col items-center justify-center overflow-hidden">
-        <Layout className="pt-16">
+      <Layout underConstruction={true} className="pt-16">
           <AnimatedText
             text="I Don't Know, Satan Is Pretty Cool"
             className="mb-16"
