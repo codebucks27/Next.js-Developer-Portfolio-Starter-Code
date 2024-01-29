@@ -7,6 +7,7 @@ import Image from "next/image";
 import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import article2 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
 import { motion, useMotionValue } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -99,6 +100,7 @@ const articles = () => {
         <title>Brian Williams | Articles Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full pb-16 mb-16 flex flex-col items-center justify-center overflow-hidden">
       <Layout underConstruction={true} className="pt-16 ">
           <AnimatedText

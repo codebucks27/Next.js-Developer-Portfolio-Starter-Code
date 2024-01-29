@@ -8,6 +8,7 @@ import { GithubIcon } from "@/components/Icons";
 import StarShower from "../../public/images/projects/Brians_Stuff-Star_Shower.webp";
 import Omnifood from "../../public/images/projects/Brians_Stuff-Omnifood_Project.webp";
 import { motion } from "framer-motion";
+import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
@@ -110,6 +111,7 @@ const projects = () => {
         <title>Brian Williams | Projects Page</title>
         <meta name="description" content="any description" />
       </Head>
+      <TransitionEffect />
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText text="Innovation Meets Usability!" className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl" />
