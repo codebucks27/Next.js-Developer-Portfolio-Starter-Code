@@ -77,13 +77,13 @@ const NavBar = () => {
         <CustomLink href="/articles" title="Articles" className="ml-4" />
       </nav>
       
-      <nav className="flex items-center justify-center flex-wrap">
+      <nav className="flex items-center justify-center flex-wrap gap-6">
         <motion.a
           href="https://github.com/bwilliams91"
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 mr-3"
+          className="w-6"
         >
           <GithubIcon />
         </motion.a>
@@ -92,13 +92,13 @@ const NavBar = () => {
           target={"_blank"}
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          className="w-6 ml-3"
+          className="w-6"
         >
           <LinkedInIcon />
         </motion.a>
 
       <button onClick={() => setMode(mode === "light" ? "dark" : "light")} 
-      className={`ml-3 flex items-center justify-center rounded-full p-1
+      className={`flex items-center justify-center rounded-full p-1
       ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}
       `}
       >
