@@ -7,6 +7,9 @@ import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import StarShower from "../../public/images/projects/Brians_Stuff-Star_Shower.webp";
 import Omnifood from "../../public/images/projects/Brians_Stuff-Omnifood_Project.webp";
+import ReflectionMat from "../../public/images/projects/reflection-material.webp";
+import QuoteCloud from "../../public/images/projects/quote-cloud.webp";
+import SunsetRacer from "../../public/images/projects/sunset-racer.webp";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -119,18 +122,18 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
+                title="ThreeJS Quote Cloud"
+                img={QuoteCloud}
+                summary="A quote made of 3D Text floating in a cloud of randomly generated geometry."
+                link="https://quote-cloud.vercel.app/"
+                type="Featured Project"
+                github="https://github.com/bwilliams91/quote-cloud"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
                 title="Star Shower"
                 img={StarShower}
-                summary="A randomly generated star shower effect with collision."
-                link="https://starshowerbkw.netlify.app/"
-                type="Featured Project"
-                github="https://github.com/bwilliams91/Star-Shower"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
                 link="https://starshowerbkw.netlify.app/"
                 type="Project"
                 github="https://github.com/bwilliams91/Star-Shower"
@@ -138,24 +141,33 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
+                title="Sunset Racer"
+                img={SunsetRacer}
+                link="https://sunsetracer.netlify.app/"
                 type="Project"
-                github="https://github.com/bwilliams91/Star-Shower"
+                github="https://github.com/bwilliams91/Sunset-Racing"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                title="Star Shower"
-                img={StarShower}
-                summary="A randomly generated star shower effect with collision."
-                link="https://starshowerbkw.netlify.app/"
+                title="Reflection Material ThreeJS"
+                img={ReflectionMat}
+                summary="Experimenting with geometries and materials in threejs"
+                link="https://materialexp.netlify.app/"
                 type="Featured Project"
-                github="https://github.com/bwilliams91/Star-Shower"
+                github="https://github.com/bwilliams91/material-experimentation"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Omnifood Food Delivery"
+                img={Omnifood}
+                link="https://omnifoodbkw.netlify.app/"
+                type="Project"
+                github="https://github.com/bwilliams91/Omnifood-project"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Omnifood Food Delivery"
                 img={Omnifood}
@@ -163,16 +175,7 @@ const projects = () => {
                 type="Project"
                 github="https://github.com/bwilliams91/Star-Shower"
               />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Omnifood Food Delivery"
-                img={Omnifood}
-                link="https://starshowerbkw.netlify.app/"
-                type="Project"
-                github="https://github.com/bwilliams91/Star-Shower"
-              />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
