@@ -12,7 +12,7 @@ const Footer = () => {
       <Layout className="py-8 flex items-center justify-between lg:flex-col lg:py-6">
         <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
 
-        <div className="flex items-center lg:py-2">
+        {/* <div className="flex items-center lg:py-2">
           Built with <span className="text-primary text-2xl px-1 dark:text-primaryDark">&#9825;	</span> by&nbsp;
           <Link
             href="https://devdreaming.com"
@@ -21,7 +21,7 @@ const Footer = () => {
           >
             CodeBucks
           </Link>
-        </div>
+        </div> */}
 
         <Link
           href="https://devdreaming.com/about"

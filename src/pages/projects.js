@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import proj1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
-import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
-import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj1 from "../../public/images/projects/feral-woods-wordpress.png";
+// import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
+// import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
+// import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
+// import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
+// import proj6 from "../../public/images/projects/devdreaming.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -64,18 +64,18 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
           {summary}
         </p>
         <div className="mt-2 flex items-center">
-          <Link
+          {/* <Link
             href={github}
             target={"_blank"}
             className="w-10"
             aria-label="Crypto Screener Application github link"
           >
             <GithubIcon />
-          </Link>
+          </Link> */}
           <Link
             href={link}
             target={"_blank"}
-            className="ml-4 rounded-lg
+            className="ml-0 rounded-lg
              bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark 
              sm:px-4 sm:text-base
             "
@@ -184,14 +184,14 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                title="Wordpress Site"
+                summary="Feral Woods: A wordpress managed short term rental wesbite"
                 img={proj1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                link="https://feralwoods.com"
+                github="#"
               />
             </div>
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website Template"
                 title="NFT collection Website"
@@ -199,8 +199,8 @@ export default function Projects() {
                 link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
                 github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
               />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
+            </div> */}
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website"
                 title="Fashion Studio Website"
@@ -236,7 +236,7 @@ export default function Projects() {
                 link="https://devdreaming.com"
                 github="https://github.com/codebucks27"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

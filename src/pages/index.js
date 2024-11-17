@@ -1,5 +1,4 @@
 import AnimatedText from "@/components/AnimatedText";
-import { HireMe } from "@/components/HireMe";
 import { LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
@@ -41,18 +40,15 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="Transforming Ideas into Seamless User Experiences."
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+              As a seasoned Staff Engineer with over 10 years of experience, I specialize in crafting intuitive, high-performance web applications. My passion lies in blending cutting-edge front-end technologies like React.js with thoughtful UI/UX design to bring innovative solutions to life. Explore my latest work, including projects that enhance user experiences, streamline system designs, and integrate AI advancements. Let's create something amazing together!
               </p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  // whileHover={{
-                  //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
-                  // }}
-                  href="/dummy.pdf"
+                  href="/resume.pdf"
                   target={"_blank"}
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
@@ -65,7 +61,7 @@ export default function Home() {
                 </Link>
 
                 <Link
-                  href="mailto:codebucks27@gmail.com"
+                  href="mailto:dutyuzh@gmail.com"
                   className="ml-4 text-lg font-medium capitalize text-dark underline 
                   dark:text-light md:text-base"
                 >
@@ -75,8 +71,6 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-
-        <HireMe />
         <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
           <Image
             className="relative h-auto w-full"

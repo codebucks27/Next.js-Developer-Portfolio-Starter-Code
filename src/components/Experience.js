@@ -61,58 +61,50 @@ const Experience = () => {
             style={{ scaleY: scrollYProgress }}
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-            <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
-              time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            />
+          <Details
+            position="Staff Software Engineer"
+            company="TechStyleOS JustFab"
+            companyLink="https://www.justfab.com"
+            time="Nov, 2023 - Oct, 2024"
+            address="Remote"
+            work="Led the successful delivery of a new React e-commerce site that unified three brands into a single codebase, ensuring functionality and scalability for future enhancements. Utilized technologies like React, TypeScript, Jest, HTML, SASS, RESTful APIs, Git."
+          />
 
-            <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
-            />
+          <Details
+            position="Senior Software Engineer"
+            company="TechStyleOS JustFab"
+            companyLink="https://www.justfab.com"
+            time="July, 2021 - Nov, 2023"
+            address="Remote"
+            work="Spearheaded the transition from a legacy ColdFusion eCommerce site to a modern React platform, making key architectural decisions and implementing a component-based model using React and Styled Components."
+          />
 
-            <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
-            />
+          <Details
+            position="Lead UI Developer"
+            company="BuyerQuest"
+            companyLink="https://www.buyerquest.com"
+            time="July, 2020 - July, 2021"
+            address="Cleveland, Ohio"
+            work="Oversaw all Front-End Development for a B2B eCommerce product, including feature development, bug resolution, sprint planning, task delegation, and peer code reviews. Technologies used: PHP, HTML, React, JavaScript, jQuery, SASS."
+          />
 
-            <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
-            />
+          <Details
+            position="Senior Front End Developer"
+            company="Xngage"
+            companyLink="https://www.xngage.com"
+            time="Nov, 2018 - July, 2020"
+            address="Cleveland, Ohio"
+            work="Responsible for the Front-End Development of Custom B2B eCommerce Solutions utilizing Insite Commerce written in AngularJS, Sass, HTML, and version control via Git."
+          />
 
-            <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
-            />
+          <Details
+            position="Senior Experience Engineer"
+            company="Publicis Sapient"
+            companyLink="https://www.publicissapient.com"
+            time="March, 2015 - July, 2018"
+            address="Cleveland, Ohio"
+            work="Managed front-end development for Fortune 300 clients such as Timberland, The North Face, Wrangler, Vans, Smartwool, and Lee. Collaborated in an agile global team using WebSphere Commerce (WCS) and Adobe Experience Manager (AEM)."
+          />
           </ul>
         </div>
         </div>
