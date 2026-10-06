@@ -14,7 +14,7 @@ https://youtu.be/Yw7yWHigGKI <br />
 [![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
 
 ---
-✨ Checkout my brand new Saas application -> [AI Headshot Generator](https://www.smartheadshots.ai)
+
 
 ---
 
@@ -45,3 +45,6 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 - [Tailwind css](https://tailwindcss.com/) <br />
 
 
+## Other project
+
+From the creator: [SmartHeadshots AI — AI headshot generator](https://www.smartheadshots.ai/).
