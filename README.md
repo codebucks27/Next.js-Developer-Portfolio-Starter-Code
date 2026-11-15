@@ -45,6 +45,8 @@ on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_me
 - [Tailwind css](https://tailwindcss.com/) <br />
 
 
-## Other project
+## Other projects
 
 From the creator: [SmartHeadshots AI — AI headshot generator](https://www.smartheadshots.ai/).
+
+I also built [AI Room Design, an AI room design app](https://www.airoomdesignapp.com).
